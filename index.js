@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMD = require('./utils/generateMarkdown')
-//const path = require('path'); users dictate where to save info?
 
 // Create an array of questions for user input
 const questions = [
@@ -79,16 +78,3 @@ function init() {
 // Function call to initialize app
 init();
 
-/*const mockData = {
- title: 'test',
-  description: 'test',
-  installation: '- step1 - step2',
-  usage: '-step1-step2',
-  license: 'MIT',
-  contributing: 'no',
-  test: 'no',
-  questions: 'no',
-  question2: 'no'
-}
-
-  writeToFile("README.MD", mockData)*/
