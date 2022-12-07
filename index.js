@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMD = require('./utils/generateMarkdown')
-//const path = require('path); users dictate where to save info?
+//const path = require('path'); users dictate where to save info?
 
 // Create an array of questions for user input
 const questions = [

@@ -1,8 +1,8 @@
-# test [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Test Project [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
   ## Description 
 
-  test
+  Testing how the description of the project would work.
 
   ## Table of Contents
 
@@ -15,24 +15,26 @@
 
   # Installation
 
-  test the install, use NPM inquirier version 8.6.4.2
+  Download NPM inquirer
 
   ## Usage
 
-  use node js in terminal
+  Open terminal, then run node index
 
-# License 
-    MIT
+  # Copyright (c) KateRitchie.  All rights reserved. 
+    ISC
+
+  Licensed under the [ISC](https://choosealicense.com/licenses/isc/) license.
 
   ## Contribution
 
-   no
+   N/A
 
   ## Test
 
-  no
+  N/A
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me at ritchie.katie@gmail.com or on [GitHub](https://github.com/KateRitchie)
+  If you have any questions about the repo, open an issue or contact me at ritchie.kate@gmail.com or on [GitHub](https://github.com/KateRitchie).
   

@@ -16,8 +16,17 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  
+  if (license === 'No License') {
+    return ""
+  } else {
+    const links = {
+    MIT: '[MIT](https://choosealicense.com/licenses/mit/)',
+    ISC: '[ISC](https://choosealicense.com/licenses/isc/)',
+    GNUGPLv3: '[GNUGPLv3](https://choosealicense.com/licenses/gpl-3.0/)'
+    }
+    return links[license]
  }
+}
 
 // Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -25,13 +34,13 @@ function renderLicenseSection(license) {
   if (license === 'No License') {
     return ""
   } else {
-    return `# License 
+    return `# Copyright (c) KateRitchie.  All rights reserved. 
     ${license}`
   }
 
 }
 
-// TODO: Create a function to generate markdown for README
+// Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title} ${renderLicenseBadge(data.license)}
 
@@ -56,7 +65,9 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)}
+
+  Licensed under the ${renderLicenseLink(data.license)} license.
 
   ## Contribution
 
@@ -68,7 +79,7 @@ ${renderLicenseSection(data.license)}
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me at ${data.questions} or on [![GitHub](https://github.com/${data.question2})
+  If you have any questions about the repo, open an issue or contact me at ${data.questions} or on [GitHub](https://github.com/${data.question2}).
   
 `;
 }
