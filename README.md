@@ -13,13 +13,15 @@
   - [Test](#Test)
   - [Questions](#Questions)
 
-  # Installation
+  ## Installation
 
   In order to use this generator, please install node.js and NPM inquirer@8.2.4
 
   ## Usage
 
-  To use, open the terminal in VS code, navigate to the folder that contains the code, and run node index.js.  Please see video below for further instruction
+  To use, open the terminal in VS code, navigate to the folder that contains the code, and run node index.js.  Please see video for further instruction
+
+  [Video Link](https://drive.google.com/file/d/1-uRcsW8_hg3fmxbAkWYLNFusddbW4hcn/view)
 
    
   ## License 
@@ -37,5 +39,5 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me at ritchie@email.com or on [GitHub](https://github.com/KateRitchie).
+  If you have any questions about the repo, open an issue or contact me at kate@gmail.com or on [GitHub](https://github.com/KateRitchie).
   

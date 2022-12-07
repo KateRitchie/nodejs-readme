@@ -57,7 +57,7 @@ function generateMarkdown(data) {
   - [Test](#Test)
   - [Questions](#Questions)
 
-  # Installation
+  ## Installation
 
   ${data.installation}
 
