@@ -1,8 +1,7 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMD = require('./utils/generateMarkdown')
-//console.log('readme gen running')
 //const path = require('path); users dictate where to save info?
 
 // Create an array of questions for user input
@@ -31,7 +30,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What license will you use?',
-        choices: ['MIT', 'GNU', 'Apache', 'No License']
+        choices: ['MIT', 'ISC', 'GNUGPLv3', 'No License']
     },
     {
         type: 'input',
@@ -57,7 +56,13 @@ const questions = [
 
 // Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('README.MD',generateMD(data), (err)=> console.log(err))
+    fs.writeFile('README.MD',generateMD(data), (err)=> {
+        if(err) {
+            console.log('Could not save file') 
+        } else {
+            console.log('File saved')
+        }
+    })
 }
 
 // Create a function to initialize app
