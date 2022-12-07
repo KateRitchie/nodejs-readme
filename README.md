@@ -15,10 +15,11 @@
 
   # Installation
 
-  -step1 -step2
+  test the install, use NPM inquirier version 8.6.4.2
 
   ## Usage
-  -step1 -step2
+
+  use node js in terminal
 
 # License 
     MIT
@@ -33,5 +34,5 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me at dkdk or on GitHub kdkdk
+  If you have any questions about the repo, open an issue or contact me at ritchie.katie@gmail.com or on [GitHub](https://github.com/KateRitchie)
   

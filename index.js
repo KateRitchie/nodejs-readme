@@ -19,12 +19,12 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Please enter installation instructions, seperate each step with a "-"?'
+        message: 'Please enter installation instructions'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Please enter usage instructions, seperate each step with a "-"?',
+        message: 'Please enter usage instructions',
     },
     {
         type: 'list',
@@ -35,12 +35,12 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'How to contribute?'
+        message: 'Enter in the contribution guidelines, if any'
     },
     {
         type: 'input',
         name: 'test',
-        message: 'Any tests?'
+        message: 'Enter test instructions, if any'
     },
     {
         type: 'input',
@@ -50,7 +50,7 @@ const questions = [
     {
         type: 'input',
         name: 'question2',
-        message: 'Please enter your email address'
+        message: 'Please enter your GitHub user name'
     }
 ];
 
@@ -78,14 +78,17 @@ function init() {
 
 // Function call to initialize app
 init();
+
 /*const mockData = {
-  title: 'My project',
-  description: 'it does cool stuff and things',
-  installation: 'just click',
-  usage: 'keep clicking',
+ title: 'test',
+  description: 'test',
+  installation: '- step1 - step2',
+  usage: '-step1-step2',
   license: 'MIT',
-  contributing: "you can't",
-  test: 'nope',
-  questions: 'sksksksk'
+  contributing: 'no',
+  test: 'no',
+  questions: 'no',
+  question2: 'no'
 }
+
   writeToFile("README.MD", mockData)*/
