@@ -34,7 +34,7 @@ function renderLicenseSection(license) {
   if (license === 'No License') {
     return ""
   } else {
-    return `# Copyright (c) KateRitchie.  All rights reserved. 
+    return `## License 
     ${license}`
   }
 
@@ -65,9 +65,10 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  ${renderLicenseSection(data.license)}
+   
+  ${renderLicenseSection(data.license)} 
 
-  Licensed under the ${renderLicenseLink(data.license)} license.
+  Copyright (c) KateRitchie.  All rights reserved. Licensed under the ${renderLicenseLink(data.license)} license.
 
   ## Contribution
 
